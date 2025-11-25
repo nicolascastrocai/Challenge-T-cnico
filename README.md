@@ -185,16 +185,6 @@ Authorization: Bearer <token>
 - El secreto JWT está hardcodeado (en producción debe estar en variables de entorno)
 - CORS está abierto a todos los orígenes (configurar en producción)
 
-### Mejoras para Producción
-- Implementar hash de contraseñas (bcrypt)
-- Usar variables de entorno para secretos
-- Implementar refresh tokens
-- Agregar rate limiting
-- Configurar CORS específicamente
-- Usar base de datos real (PostgreSQL, MongoDB, etc.)
-- Implementar validación de datos más robusta
-- Agregar tests unitarios e integración
-
 ## Documentación Adicional
 
 Para más detalles sobre cada parte del proyecto, consultar los README específicos:
