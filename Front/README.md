@@ -2,7 +2,7 @@
 
 Frontend de autenticación con React, TypeScript y Vite para el challenge técnico.
 
-## 🚀 Tecnologías
+## Tecnologías
 
 - **React 18** - Biblioteca de UI
 - **TypeScript** - Tipado estático
@@ -10,13 +10,13 @@ Frontend de autenticación con React, TypeScript y Vite para el challenge técni
 - **React Router DOM** - Navegación y rutas
 - **CSS Modules** - Estilos componetizados
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 - Node.js versión 20.19+ o 22.12+
 - npm (incluido con Node.js)
 - Backend corriendo en `http://localhost:3000`
 
-## 🔧 Instalación
+## Instalación
 
 1. Navegar a la carpeta del frontend:
 ```bash
@@ -28,7 +28,7 @@ cd Front
 npm install
 ```
 
-## ▶️ Ejecución
+## Ejecución
 
 ### Modo Desarrollo
 ```bash
@@ -42,7 +42,7 @@ npm run build
 npm run preview
 ```
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 Front/
@@ -66,7 +66,7 @@ Front/
 └── vite.config.ts
 ```
 
-## 🔐 Funcionalidades
+## Funcionalidades
 
 ### Login
 - Formulario de autenticación con validación
@@ -85,7 +85,7 @@ Front/
 - Validación de token en rutas protegidas
 - Limpieza de localStorage al cerrar sesión
 
-## 🛣️ Rutas
+## Rutas
 
 | Ruta | Componente | Protegida | Descripción |
 |------|-----------|-----------|-------------|
@@ -93,7 +93,7 @@ Front/
 | `/dashboard` | Dashboard | Sí | Página con datos del usuario |
 | `*` | - | - | Redirección a `/` |
 
-## 👥 Usuarios de Prueba
+## Usuarios de Prueba
 
 Usar las mismas credenciales del backend:
 
@@ -103,7 +103,7 @@ Usar las mismas credenciales del backend:
 | maria@example.com | 123456 |
 | carlos@example.com | 123456 |
 
-## 🎨 Características de Diseño
+## Características de Diseño
 
 - Logo personalizado de Rentmote con 4 barras en degradado
 - Formulario con inputs con fondo gris claro
@@ -112,7 +112,7 @@ Usar las mismas credenciales del backend:
 - Avatar circular con gradiente
 - Diseño responsive
 
-## 📦 Dependencias Principales
+## Dependencias Principales
 
 ```json
 {
@@ -124,14 +124,14 @@ Usar las mismas credenciales del backend:
 }
 ```
 
-## 🛠️ Scripts Disponibles
+## Scripts Disponibles
 
 - `npm run dev` - Inicia el servidor de desarrollo con hot reload
 - `npm run build` - Compila el proyecto para producción
 - `npm run preview` - Previsualiza la build de producción
 - `npm run lint` - Ejecuta el linter
 
-## 🔗 Conexión con el Backend
+## Conexión con el Backend
 
 La URL del backend está configurada en `src/config/api.ts`:
 
@@ -139,7 +139,7 @@ La URL del backend está configurada en `src/config/api.ts`:
 export const API_URL = 'http://localhost:3000/api';
 ```
 
-## 📝 Notas
+## Notas
 
 - El token JWT se guarda en localStorage
 - Los datos del usuario también se guardan en localStorage
